@@ -1,0 +1,143 @@
+/***** #2 #colorful #palette is: *****
+      * Background: #F5F5F5 (GREY 100)
+      * Primary Text: black
+
+      * Primary color: #3F51B5 (INDIGO)
+      * Primary color_text : white
+      * Accent color: #CDDC39 (LIME)
+      * Accent color_text: black
+      ******/
+
+
+/***** Global *****/
+
+* {
+  /* #2 #font #faces */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* #2 #colorful #background */
+  background-color: #F5F5F5;
+}
+
+button, a {
+  /* #2 #font capital #letters */
+  text-transform: uppercase;
+}
+
+
+
+/***** App bar *****/
+
+h1 {
+  /* #2 #colourful #app-bar */
+  background-color: #3F51B5;
+  color: white;
+}
+
+
+/***** Channel list *****/
+
+li {
+  /* #2 #colorful #channelandchat */
+  background-color: white;
+  padding: 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 48px;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+li.selected {
+  border-left: 4px solid #3F51B5;
+  color: #3F51B5;
+}
+
+li img {
+  /*centers the icons*/
+  vertical-align: middle;
+}
+
+/***** Tab bar *****/
+
+#tabBar button {
+  text-align: center;
+  background-color: white;
+  border: none;
+  font-size: 13px;
+  height: 72px;
+  padding: 16px;
+  width: 33%;
+}
+
+#tapBar img{
+  margin: auto;
+  margin-bottom: 4px;
+}
+
+#tabBar button.selected {
+  border-bottom: 4px solid #3F51B5;
+  color: #3F51B5;
+}
+/***** Messages *****/
+
+.message{
+  width: 80%;
+  margin-bottom: 8px;
+  margin-left: 2.5%;
+  padding: 16 0 16 0;
+}
+
+.messageOwn{
+  width: 80%;
+  margin-bottom: 8px;
+  padding: 16 0 16 0;
+
+  margin-left: 17.5%;
+}
+
+h3 * {
+  color:black;
+  font-size: medium;
+}
+
+.messageMetadata {
+  font-size: medium;
+}
+
+.messageText {
+  background-color: white;
+  padding: 16px;
+}
+
+.messageButton{
+  background-color: #CDDC39;
+}
+
+.messageTimeToLive{
+  font-size: larger;
+  font-style: normal;
+}
+
+p {
+  /* #2 #colorful #channelandchat */
+  background-color: white;
+}
+
+strong {
+  /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+  text-transform: uppercase;
+}
+
+
+ul {
+  background-color: white;
+  list-style-type: none;
+}
+
+div {
+  background-color: white;
+}
